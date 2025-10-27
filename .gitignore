@@ -1,0 +1,8 @@
+# node_modulesは無視
+node_modules/
+
+# OS固有ファイル
+.DS_Store
+
+# ログファイル
+*.log

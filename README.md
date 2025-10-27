@@ -41,7 +41,7 @@ To https://github.com/tsukimi20030901-hue/git_practice.git
 b30224f (ローカルでREADME.mdを編集)
 c69eb4e (ローカルでREADME.mdを編集)
 
-## 06
+## 05
 <img width="1440" height="900" alt="100本ノック05" src="https://github.com/user-attachments/assets/21b934b5-36d5-4b8c-a31b-69f6c6b16a1e" />
 
 On branch main
@@ -49,3 +49,10 @@ Your branch is ahead of 'origin/main' by 1 commit.
   (use "git push" to publish your local commits)
 
 nothing to commit, working tree clean
+
+## 06
+git branch
+* develop
+  main
+### developブランチでの変更
+ブランチで作業しています^ ^
