@@ -29,9 +29,17 @@ origin  https://github.com/tsukimi20030901-hue/git_practice.git (fetch)
 origin  https://github.com/tsukimi20030901-hue/git_practice.git (push)
 
 ## 04
-=======
-=======
-## ローカル変更テスト
+makino@makinotsukikainoMacBook-Pro git_practice % git push origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 471 bytes | 471.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/tsukimi20030901-hue/git_practice.git
+   6a0d2c5..697deaa  main -> main
+### ローカル変更テスト
 この行はローカルで追加しました。
 >>>>>>> b30224f (ローカルでREADME.mdを編集)
 >>>>>>> c69eb4e (ローカルでREADME.mdを編集)
