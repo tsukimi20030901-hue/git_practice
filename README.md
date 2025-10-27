@@ -52,3 +52,22 @@ nothing to commit, working tree clean
 
 ## 07
 <img width="1440" height="900" alt="100本ノック07" src="https://github.com/user-attachments/assets/018a9054-59f1-41b9-9eb0-f01a4dfae7b0" />
+
+## 08
+git log
+commit 50673482cc8a7d926c1d29cbf149025ed1b594eb (HEAD -> develop, origin/develop)
+Author: tsukimimakino <tsukimi20030901@gmsil.com>
+Date:   Mon Oct 27 23:31:31 2025 +0900
+
+    Add changes in develop branch#Add changes in develop branch
+
+commit 4823bc3192b50b312085127e9eea93f6e299ae0e
+Author: tsukimimakino <tsukimi20030901@gmsil.com>
+Date:   Mon Oct 27 23:11:45 2025 +0900
+
+    Add .gitignore to ignore node_modules and other files
+
+commit ca71a1072271434a5b3a0ba523e2f5da69708eca (origin/main)
+Author: tsukimi20030901-hue <tsukimi20030901@gmail.com>
+
+##09
