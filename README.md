@@ -1,6 +1,4 @@
-# Git 初期コミット課題
-
-# 100pon
+# 1章
 
 ## 00
 <img width="628" height="423" alt="100本ノック00" src="https://github.com/user-attachments/assets/ebcba310-b198-4e06-9de1-9d7689a2197c" />
@@ -15,7 +13,6 @@ git log --oneline
 ### コミットID
 70440d7
 
-<<<<<<< HEAD
 ## 02
 <img width="1440" height="900" alt="100本ノック03" src="https://github.com/user-attachments/assets/b6d27c12-be0e-4324-86a9-92af3e4db141" />
 
@@ -41,8 +38,8 @@ To https://github.com/tsukimi20030901-hue/git_practice.git
    6a0d2c5..697deaa  main -> main
 ### ローカル変更テスト
 この行はローカルで追加しました。
->>>>>>> b30224f (ローカルでREADME.mdを編集)
->>>>>>> c69eb4e (ローカルでREADME.mdを編集)
+b30224f (ローカルでREADME.mdを編集)
+c69eb4e (ローカルでREADME.mdを編集)
 
 ## 06
 <img width="1440" height="900" alt="100本ノック05" src="https://github.com/user-attachments/assets/21b934b5-36d5-4b8c-a31b-69f6c6b16a1e" />
