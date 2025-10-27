@@ -49,3 +49,6 @@ Your branch is ahead of 'origin/main' by 1 commit.
   (use "git push" to publish your local commits)
 
 nothing to commit, working tree clean
+
+## 07
+<img width="1440" height="900" alt="100本ノック07" src="https://github.com/user-attachments/assets/018a9054-59f1-41b9-9eb0-f01a4dfae7b0" />
