@@ -15,6 +15,7 @@ git log --oneline
 ### コミットID
 70440d7
 
+<<<<<<< HEAD
 ## 02
 <img width="1440" height="900" alt="100本ノック03" src="https://github.com/user-attachments/assets/b6d27c12-be0e-4324-86a9-92af3e4db141" />
 
@@ -22,8 +23,15 @@ git log --oneline
 Hi tsukimi20030901-hue! You've successfully authenticated, but GitHub does not provide shell access.
 
 ## 03
+<<<<<<< HEAD
 origin  https://github.com/tsukimi20030901-hue/git_practice.git (fetch)
 
 origin  https://github.com/tsukimi20030901-hue/git_practice.git (push)
 
 ## 04
+=======
+=======
+## ローカル変更テスト
+この行はローカルで追加しました。
+>>>>>>> b30224f (ローカルでREADME.mdを編集)
+>>>>>>> c69eb4e (ローカルでREADME.mdを編集)
