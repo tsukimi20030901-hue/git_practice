@@ -1,6 +1,5 @@
-# Git Practice
+# 1章
 
-<<<<<<< HEAD
 ## 00
 <img width="628" height="423" alt="100本ノック00" src="https://github.com/user-attachments/assets/ebcba310-b198-4e06-9de1-9d7689a2197c" />
 
@@ -42,7 +41,7 @@ To https://github.com/tsukimi20030901-hue/git_practice.git
 b30224f (ローカルでREADME.mdを編集)
 c69eb4e (ローカルでREADME.mdを編集)
 
-## 05
+## 06
 <img width="1440" height="900" alt="100本ノック05" src="https://github.com/user-attachments/assets/21b934b5-36d5-4b8c-a31b-69f6c6b16a1e" />
 
 On branch main
@@ -51,12 +50,5 @@ Your branch is ahead of 'origin/main' by 1 commit.
 
 nothing to commit, working tree clean
 
-## 06
-git branch
-* develop
-  main
 ### developブランチでの変更
 ブランチで作業しています^ ^
-=======
-このリポジトリはGitの学習用です。
->>>>>>> 37a42b0 (構造を整理：章ごとにREADMEを分割)
