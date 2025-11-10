@@ -1,6 +1,6 @@
 # Git Practice
 
-<<<<<<< HEAD
+
 ## 00
 <img width="628" height="423" alt="100本ノック00" src="https://github.com/user-attachments/assets/ebcba310-b198-4e06-9de1-9d7689a2197c" />
 
@@ -21,7 +21,7 @@ git log --oneline
 Hi tsukimi20030901-hue! You've successfully authenticated, but GitHub does not provide shell access.
 
 ## 03
-<<<<<<< HEAD
+
 origin  https://github.com/tsukimi20030901-hue/git_practice.git (fetch)
 
 origin  https://github.com/tsukimi20030901-hue/git_practice.git (push)
@@ -51,14 +51,14 @@ Your branch is ahead of 'origin/main' by 1 commit.
 
 nothing to commit, working tree clean
 
-<<<<<<< HEAD
+
 ## 06
 git branch
 * develop
   main
 ### developブランチでの変更
 ブランチで作業しています^ ^
-=======
+
 ## 07
 <img width="1440" height="900" alt="100本ノック07" src="https://github.com/user-attachments/assets/018a9054-59f1-41b9-9eb0-f01a4dfae7b0" />
 
@@ -87,4 +87,3 @@ Author: tsukimi20030901-hue <tsukimi20030901@gmail.com>
 
 
 ## 09
->>>>>>> origin/main
