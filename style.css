@@ -1,0 +1,68 @@
+/* style.css */
+html, body {
+  height: 100%;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+
+  font-family: "Hiragino Mincho ProN", "ヒラギノ明朝 ProN", "Yu Mincho", "游明朝体", serif;
+  color: #000000;
+  background-color: #ffffff; /* 必要なら変更 */
+}
+
+/* 背景を覆うコンテナ */
+#background {
+  min-height: 100vh; /* 画面全体をカバー */
+  /* 背景画像のURLをここに入れてください（シングルクォートかダブルクォートで） */
+  background-image: url('写真のurlを貼り付ける');
+  background-attachment: fixed; /* 背景がスクロールされない */
+  background-size: cover;
+  background-position: center;
+  padding: 0; /* 下のコンテンツがヘッダーに隠れないように下で余白設定します */
+  /* ヘッダー分の余白を追加（下で #name の高さに合わせる） */
+  padding-top: 60px;
+}
+
+/* 固定ヘッダー */
+#name {
+  position: fixed; /* 常に同じ場所に表示 */
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 0;
+  margin: 0;
+  border: 0;
+  background-color: #595b83;
+  color: #cacfd4;
+  z-index: 1000; /* 他より前面に表示 */
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+/* 画像のレスポンシブ対応 */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* 見出しと段落の余白調整（任意） */
+h1, h2, h3, h4, h5, h6 {
+  margin: 1rem 0 0.5rem;
+}
+
+p {
+  margin: 0.5rem 1rem;
+}
+
+/* リストのスタイル（任意） */
+ul, ol {
+  text-align: left;
+  display: inline-block;
+  margin: 0.5rem 0;
+  padding-left: 1.2rem;
+}
