@@ -57,7 +57,7 @@
 
 ## 37 DOM操作
 ### ブラウザ　変更前の表示
-![100knock37-1](./images/100konck37-1.png)
+![100knock37-1](./images/100knock37-1.png)
 ### ブラウザ　変更後の表示
 ![100knock37-2](./images/100knock37-2.png)
 
