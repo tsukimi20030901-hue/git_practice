@@ -21,7 +21,7 @@
 ### ブラウザ
 ![100knock32-1](./images/100knock32-1.png)
 ### JavaScript
-![100knock32-2](./images/100knock32-3.png)
+![100knock32-2](./images/100knock32-2.png)
 
 
 ## 33 繰り返し処理
