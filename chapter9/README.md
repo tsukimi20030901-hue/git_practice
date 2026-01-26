@@ -4,7 +4,7 @@
 
 #### jsコード
 
-'''js
+```js
 fetch("https://jsonplaceholder.typicode.com/posts")
   .then(response => {
     return response.json(); // JSON形式に変換
@@ -15,11 +15,11 @@ fetch("https://jsonplaceholder.typicode.com/posts")
   .catch(error => {
     console.error("エラーが発生しました", error);
   });
-'''
+```
 
 #### HTMLコード
 
-'''HTML
+```HTML
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -33,7 +33,7 @@ fetch("https://jsonplaceholder.typicode.com/posts")
   <script src="script.js"></script>
 </body>
 </html>
-'''
+```
 
 #### 実行画面
 ![80実行画面](./images/80.png)
@@ -42,7 +42,7 @@ fetch("https://jsonplaceholder.typicode.com/posts")
 
 #### jsコード
 
-'''js
+```js
 // Promiseを作成
 const myPromise = new Promise((resolve, reject) => {
   console.log("処理開始");
@@ -66,7 +66,7 @@ myPromise
   .catch(error => {
     console.error("catch:", error);
   });
-'''
+```
 
 #### 実行結果
 ![81実行画面](./images/81.png)
@@ -76,7 +76,7 @@ myPromise
 
 #### HTMlコード
 
-'''HTML
+```HTML
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -92,11 +92,11 @@ myPromise
   <script src="script.js"></script>
 </body>
 </html>
-'''
+```
 
 #### jsコード
 
-'''js
+```js
 fetch("https://jsonplaceholder.typicode.com/posts")
   .then(response => {
     return response.json();
@@ -113,7 +113,7 @@ fetch("https://jsonplaceholder.typicode.com/posts")
   .catch(error => {
     console.error("エラーが発生しました", error);
   });
-'''
+```
 
 
 #### 実行画面
@@ -123,7 +123,7 @@ fetch("https://jsonplaceholder.typicode.com/posts")
 
 #### HTMLコード
 
-'''HTML
+```HTML
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -142,11 +142,11 @@ fetch("https://jsonplaceholder.typicode.com/posts")
   <script src="script.js"></script>
 </body>
 </html>
-'''
+```
 
 #### jsコード
 
-'''js
+```js
 const loading = document.getElementById("loading");
 const postList = document.getElementById("post-list");
 
@@ -166,12 +166,12 @@ fetch("https://jsonplaceholder.typicode.com/posts")
     loading.textContent = "エラーが発生しました";
     console.error(error);
   });
-'''
+```
 
 ## 84　エラー処理
 #### HTMLコード
 
-'''HTML
+```HTML
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -189,12 +189,12 @@ fetch("https://jsonplaceholder.typicode.com/posts")
   <script src="script.js"></script>
 </body>
 </html>
-'''
+```
 
 
 #### jsコード
 
-'''js
+```js
 const loading = document.getElementById("loading");
 const errorMsg = document.getElementById("error");
 const postList = document.getElementById("post-list");
@@ -221,7 +221,7 @@ fetch("https://jsonplaceholder.typicode.com/postssss")
     errorMsg.textContent = "データの取得に失敗しました";
     console.error(error);
   });
-'''
+```
 
 #### 実行画面
 ![81実行画面](./images/81.png)
@@ -231,7 +231,7 @@ fetch("https://jsonplaceholder.typicode.com/postssss")
 
 #### HTMLコード
 
-'''HTML
+```HTML
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -248,11 +248,11 @@ fetch("https://jsonplaceholder.typicode.com/postssss")
   <script src="script.js"></script>
 </body>
 </html>
-'''
+```
 
 #### jsコード
 
-'''js
+```js
 const button = document.getElementById("sendBtn");
 const result = document.getElementById("result");
 
@@ -277,7 +277,7 @@ button.addEventListener("click", () => {
       console.error("エラー:", error);
     });
 });
-'''
+```
 
 #### 実行画面
 ![85実行画面](./images/85.png)
