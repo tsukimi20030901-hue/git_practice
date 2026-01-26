@@ -1,10 +1,24 @@
-fetch("https://jsonplaceholder.typicode.com/posts")
-  .then(response => {
-    return response.json(); // JSON形式に変換
+const button = document.getElementById("sendBtn");
+const result = document.getElementById("result");
+
+button.addEventListener("click", () => {
+  fetch("https://jsonplaceholder.typicode.com/posts", {
+    method: "POST", // ← POSTがここ！
+    headers: {
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify({
+      title: "おはようございます(^^)",
+      body: "POST通信のテスト",
+      userId: 1
+    })
   })
-  .then(data => {
-    console.log(data); // 取得したデータを表示
-  })
-  .catch(error => {
-    console.error("エラーが発生しました", error);
-  });
+    .then(response => response.json())
+    .then(data => {
+      console.log(data); // コンソール確認用
+      result.textContent = JSON.stringify(data, null, 2);
+    })
+    .catch(error => {
+      console.error("エラー:", error);
+    });
+});
