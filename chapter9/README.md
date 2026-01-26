@@ -4,7 +4,7 @@
 
 #### jsコード
 
-'''
+'''js
 fetch("https://jsonplaceholder.typicode.com/posts")
   .then(response => {
     return response.json(); // JSON形式に変換
@@ -19,7 +19,7 @@ fetch("https://jsonplaceholder.typicode.com/posts")
 
 #### HTMLコード
 
-'''
+'''HTML
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -42,7 +42,7 @@ fetch("https://jsonplaceholder.typicode.com/posts")
 
 #### jsコード
 
-'''
+'''js
 // Promiseを作成
 const myPromise = new Promise((resolve, reject) => {
   console.log("処理開始");
@@ -76,7 +76,7 @@ myPromise
 
 #### HTMlコード
 
-'''
+'''HTML
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -95,7 +95,8 @@ myPromise
 '''
 
 #### jsコード
-'''
+
+'''js
 fetch("https://jsonplaceholder.typicode.com/posts")
   .then(response => {
     return response.json();
@@ -114,13 +115,15 @@ fetch("https://jsonplaceholder.typicode.com/posts")
   });
 '''
 
+
 #### 実行画面
 ![82実行画面](./images/82.png)
 
 ## 83 API取得中・完了後の状態表示
 
 #### HTMLコード
-'''
+
+'''HTML
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -142,7 +145,8 @@ fetch("https://jsonplaceholder.typicode.com/posts")
 '''
 
 #### jsコード
-'''
+
+'''js
 const loading = document.getElementById("loading");
 const postList = document.getElementById("post-list");
 
@@ -166,7 +170,8 @@ fetch("https://jsonplaceholder.typicode.com/posts")
 
 ## 84　エラー処理
 #### HTMLコード
-'''
+
+'''HTML
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -188,7 +193,8 @@ fetch("https://jsonplaceholder.typicode.com/posts")
 
 
 #### jsコード
-'''
+
+'''js
 const loading = document.getElementById("loading");
 const errorMsg = document.getElementById("error");
 const postList = document.getElementById("post-list");
@@ -224,7 +230,8 @@ fetch("https://jsonplaceholder.typicode.com/postssss")
 ## 85 POSTメソッドでのAPIデータ送信
 
 #### HTMLコード
-'''
+
+'''HTML
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -245,7 +252,7 @@ fetch("https://jsonplaceholder.typicode.com/postssss")
 
 #### jsコード
 
-'''
+'''js
 const button = document.getElementById("sendBtn");
 const result = document.getElementById("result");
 
