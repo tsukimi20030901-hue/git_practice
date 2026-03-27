@@ -1,0 +1,27 @@
+{
+  "name": "simple-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "commonjs",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "express": "^4.22.1",
+    "express-session": "^1.18.2",
+    "sqlite3": "^5.1.7"
+  },
+  "description": "<img width=\"628\" height=\"423\" alt=\"100本ノック00\" src=\"https://github.com/user-attachments/assets/ebcba310-b198-4e06-9de1-9d7689a2197c\" />",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tsukimi20030901-hue/git_practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tsukimi20030901-hue/git_practice/issues"
+  },
+  "homepage": "https://github.com/tsukimi20030901-hue/git_practice#readme"
+}
